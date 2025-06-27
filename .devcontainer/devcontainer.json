@@ -2,6 +2,6 @@
 	"name": "Debian",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
-		"ghcr.io/raucha/devcontainer-features/hello:1": {}
+		"ghcr.io/devcontainers/features/git:1": {}
 	}
 }
