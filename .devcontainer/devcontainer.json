@@ -1,12 +1,10 @@
 {
-	"name": "Debian",
+	"name": "Pandoc",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".",
 		"args": {
 		}
 	},
-	"features": {
-		// "ghcr.io/devcontainers/features/git:1": {}
-	}
+	"features": {}
 }

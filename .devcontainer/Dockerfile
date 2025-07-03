@@ -1,2 +1,2 @@
-FROM mcr.microsoft.com/devcontainers/base:bullseye
+FROM pandoc/latex
 RUN echo "hallo"
