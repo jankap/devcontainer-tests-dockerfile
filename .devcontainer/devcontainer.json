@@ -1,7 +1,12 @@
 {
 	"name": "Debian",
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".",
+		"args": {
+		}
+	},
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {}
+		// "ghcr.io/devcontainers/features/git:1": {}
 	}
 }
