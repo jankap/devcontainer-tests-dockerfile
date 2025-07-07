@@ -4,13 +4,10 @@
 		"dockerfile": "Dockerfile",
 		"context": ".",
 		"args": {
-		},
-		"container_env": {
-			"BUILDX_BUILDER": "builder_with_proxy"
 		}
 	},
 	"initializeCommand": {
-		"cmd1": "docker buildx create --use --driver-opt env.http_proxy=$HTTP_PROXY --driver-opt env.https_proxy=$HTTPS_PROXY --name builder_with_proxy || true"
+		// "cmd1": "docker buildx create --use --driver-opt env.http_proxy=$HTTP_PROXY --driver-opt env.https_proxy=$HTTPS_PROXY --name builder_with_proxy || true"
 	}
 	"features": {
 		//   "ghcr.io/devcontainers/features/python:1": {}
